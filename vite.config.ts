@@ -4,7 +4,7 @@ import path from 'path';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Backroom-web/', // <--- Add this line!
+  base: '/backroom-web/', // <--- Add this line!
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
