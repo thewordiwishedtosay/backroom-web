@@ -71,44 +71,45 @@ export default function App() {
 
       {/* --- SECTION 3: VIDEO DEMO --- */}
       {/* --- SECTION 3: VIDEO DEMO --- */}
-      <section 
-        className="w-full flex flex-col items-center pb-20 px-4"
+<section 
+  className="w-full flex flex-col items-center pb-20 px-4"
+  style={{backgroundColor: '#f5f5f4'}}
+>
+  <h2 
+    className="tracking-wide text-center"
+    style={{ 
+      fontFamily: '"Jersey 20", sans-serif',
+      color: 'black',
+      fontSize: 'clamp(40px, 8vw, 50px)', 
+      lineHeight: '0.8',
+      marginTop: '80px', 
+      marginBottom: '20px'
+    }}
+  >
+    OUR PROTOTYPE
+  </h2>
+  
+  {/* VIMEO EMBED - Zoomed to crop black borders */}
+  <div className="w-full max-w-6xl shadow-2xl rounded-sm overflow-hidden border border-gray-300 bg-black">
+    <div className="relative w-full" style={{paddingBottom: '53.4%', overflow: 'hidden'}}>
+      <iframe 
+        src="https://player.vimeo.com/video/1165093361?badge=0&autopause=0&player_id=0&app_id=58479&title=0&byline=0&portrait=0" 
+        className="absolute top-0 left-0"
         style={{
-          backgroundColor: '#f5f5f4', /* Stone-100 */
+          width: '100%',
+          height: '100%',
+          top: '50%',
+          left: '50%',
+          transform: 'translate(-50%, -50%)'
         }}
-      >
-        <h2 
-          className="tracking-wide text-center"
-          style={{ 
-            fontFamily: '"Jersey 20", sans-serif',
-            color: 'black',
-            fontSize: 'clamp(40px, 8vw, 50px)', 
-            lineHeight: '0.8',
-            marginTop: '80px', 
-            marginBottom: '40px' /* Increased space below title */
-          }}
-        >
-          OUR PROTOTYPE
-        </h2>
-        
-        {/* VIMEO EMBED CONTAINER - FIXED FOR VISIBILITY */}
-        <div 
-          className="w-[90%] md:w-[80%] bg-black shadow-2xl rounded-sm overflow-hidden border border-gray-300 relative"
-          style={{ 
-            paddingBottom: '50.625%', /* Forces 16:9 ratio height */
-            height: 0                /* Standard hack: set height 0, use padding for space */
-          }}
-        >
-          <iframe 
-            src="https://player.vimeo.com/video/1165093361?badge=0&autopause=0&player_id=0&app_id=58479" 
-            className="absolute top-0 left-0 w-full h-full"
-            frameBorder="0" 
-            allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" 
-            allowFullScreen
-            title="Project Demo"
-          ></iframe>
-        </div>
-      </section>
+        frameBorder="0" 
+        allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" 
+        allowFullScreen
+        title="demo"
+      ></iframe>
+    </div>
+  </div>
+</section>
 
     </div>
   );
