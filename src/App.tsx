@@ -157,7 +157,8 @@ export default function App() {
               style={{ 
                 fontFamily: '"Jersey 20", sans-serif', 
                 fontSize: '20px', 
-                lineHeight: '1.4' 
+                lineHeight: '1.4',
+                marginBottom: 15px'
               }}
             >
               Xuan Tang is an undergraduate student majoring in Cognitive Science and Comparative Literature at the University of California, Berkeley. She uses a multimedia approach to explore the intersection of the humanities and digitality in our era.
