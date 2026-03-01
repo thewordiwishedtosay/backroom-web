@@ -112,7 +112,7 @@ export default function App() {
 
 {/* --- SECTION 4: CREDITS --- */}
       <section 
-        className="w-full flex flex-col items-center pt-20 pb-10 px-4 bg-white"
+        className="w-full flex flex-col items-center pt-24 pb-10 px-4 bg-white"
         style={{ color: 'black' }}
       >
         <h2 
@@ -123,7 +123,7 @@ export default function App() {
             fontSize: 'clamp(40px, 8vw, 50px)', 
             lineHeight: '0.8',
             marginTop: '80px', 
-            marginBottom: '40px'
+            marginBottom: '60px'
           }}
         >
           THE TEAM
@@ -132,53 +132,53 @@ export default function App() {
         <div className="flex flex-col md:flex-row max-w-5xl w-full">
           
           {/* --- Xuan Tang (Left Column) --- */}
-          <div className="flex-1 flex flex-col md:pr-12 md:border-r-[1px] border-emerald-500 pb-12 md:pb-0 mb-12 md:mb-0">
+          {/* Added more padding (pr-16) and bottom margin for breathing room */}
+          <div className="flex-1 flex flex-col md:pr-16 md:border-r-[1px] border-emerald-500 pb-16 md:pb-0 mb-16 md:mb-0">
             <h3 
-              className="tracking-wide mb-2" 
+              className="tracking-wide mb-4" 
               style={{ 
                 fontFamily: '"Jersey 20", sans-serif',
-                fontSize: 'clamp(28px, 5vw, 36px)',
+                fontSize: 'clamp(32px, 5vw, 40px)',
                 lineHeight: '1'
               }}
             >
               Xuan Tang
             </h3>
             <p 
-              className="font-semibold text-xl mb-4 opacity-70 uppercase tracking-widest"
-              style={{ fontFamily: '"Jersey 20", sans-serif' }}
+              className="font-medium text-3xl mb-8 opacity-70 uppercase tracking-widest"
+              style={{ fontFamily: '"Jersey 20", sans-serif', lineHeight: '1.2' }}
             >
               Posters, Website & Prototype Design
             </p>
             <p 
-              className="leading-relaxed text-lg tracking-wide"
-              style={{ fontFamily: '"Jersey 20", sans-serif' }}
+              className="text-2xl tracking-wide opacity-90"
+              style={{ fontFamily: '"Jersey 20", sans-serif', lineHeight: '1.6' }}
             >
               Xuan Tang is an undergraduate student majoring in Cognitive Science and Comparative Literature at the University of California, Berkeley. She uses a multimedia approach to explore the intersection of the humanities and digitality in our era.
             </p>
           </div>
 
           {/* --- Zhanruo Li (Right Column) --- */}
-          {/* On mobile, this gets a top border, but on desktop it relies on the left column's right border */}
-          <div className="flex-1 flex flex-col md:pl-12 pt-12 md:pt-0 border-t-[1px] md:border-t-0 border-emerald-500">
+          <div className="flex-1 flex flex-col md:pl-16 pt-16 md:pt-0 border-t-[1px] md:border-t-0 border-emerald-500">
             <h3 
-              className="tracking-wide mb-2" 
+              className="tracking-wide mb-4" 
               style={{ 
                 fontFamily: '"Jersey 20", sans-serif',
-                fontSize: 'clamp(28px, 5vw, 36px)',
+                fontSize: 'clamp(32px, 5vw, 40px)',
                 lineHeight: '1'
               }}
             >
               Zhanruo Li
             </h3>
             <p 
-              className="font-semibold text-xl mb-4 opacity-70 uppercase tracking-widest"
-              style={{ fontFamily: '"Jersey 20", sans-serif' }}
+              className="font-medium text-3xl mb-8 opacity-70 uppercase tracking-widest"
+              style={{ fontFamily: '"Jersey 20", sans-serif', lineHeight: '1.2' }}
             >
               Prototype Design, Model Fine-Tuning
             </p>
             <p 
-              className="leading-relaxed text-lg tracking-wide"
-              style={{ fontFamily: '"Jersey 20", sans-serif' }}
+              className="text-2xl tracking-wide opacity-90"
+              style={{ fontFamily: '"Jersey 20", sans-serif', lineHeight: '1.6' }}
             >
               Zhanruo Li is an undergraduate student at Johns Hopkins University studying Philosophy, Classics, and Writing Seminars, with experience in UI/UX design in a corporate setting. She writes experimental poetry and is currently conducting independent research on classical philosophy, aesthetics, and artificial intelligence. 
             </p>
@@ -187,7 +187,10 @@ export default function App() {
         </div>
 
         {/* --- Footer Note --- */}
-        <div className="mt-20 mb-40 text-center text-sm font-medium opacity-80 uppercase tracking-widest">
+        <div 
+          className="mt-32 mb-40 text-center text-2xl font-medium opacity-80 uppercase tracking-widest"
+          style={{ fontFamily: '"Jersey 20", sans-serif' }}
+        >
           <p>Prototype developed on Google AI Studio</p>
         </div>
       </section>
