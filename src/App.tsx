@@ -110,46 +110,57 @@ export default function App() {
         </div>
       </section>
 
-      {/* --- SECTION 4: CREDITS --- */}
+{/* --- SECTION 4: CREDITS --- */}
       <section 
         className="w-full flex flex-col items-center py-20 px-4 bg-white"
         style={{ color: 'black' }}
       >
         <h2 
-          className="tracking-wide text-center mb-12"
+          className="tracking-wide text-center"
           style={{ 
             fontFamily: '"Jersey 20", sans-serif',
-            fontSize: 'clamp(30px, 6vw, 40px)'
+            color: 'black',
+            fontSize: 'clamp(40px, 8vw, 50px)', 
+            lineHeight: '0.8',
+            marginTop: '80px', 
+            marginBottom: '40px'
           }}
         >
           THE TEAM
         </h2>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-5xl w-full">
+        <div className="flex flex-col md:flex-row max-w-5xl w-full">
           
-        
-          {/* --- Xuan Tang --- */}
-          <div className="flex flex-col">
+          {/* --- Xuan Tang (Left Column) --- */}
+          <div className="flex-1 flex flex-col md:pr-12 md:border-r-[1px] border-emerald-500 pb-12 md:pb-0 mb-12 md:mb-0">
             <h3 
-              className="font-bold text-3xl mb-1" 
-              style={{ fontFamily: '"Jersey 20", sans-serif' }}
+              className="tracking-wide mb-2" 
+              style={{ 
+                fontFamily: '"Jersey 20", sans-serif',
+                fontSize: 'clamp(28px, 5vw, 36px)',
+                lineHeight: '1'
+              }}
             >
               Xuan Tang
             </h3>
             <p className="font-semibold text-sm mb-4 opacity-70 uppercase tracking-wider">
-              Posters, Website & Prototype Design
+              Posters Design, Website Design, Prototype Design
             </p>
             <p className="leading-relaxed">
               Xuan Tang is an undergraduate student majoring in Cognitive Science and Comparative Literature at the University of California, Berkeley. She uses a multimedia approach to explore the intersection of the humanities and digitality in our era.
             </p>
           </div>
-        </div>
 
-        {/* --- Zhanruo Li --- */}
-          <div className="flex flex-col">
+          {/* --- Zhanruo Li (Right Column) --- */}
+          {/* On mobile, this gets a top border, but on desktop it relies on the left column's right border */}
+          <div className="flex-1 flex flex-col md:pl-12 pt-12 md:pt-0 border-t-[1px] md:border-t-0 border-emerald-500">
             <h3 
-              className="font-bold text-3xl mb-1" 
-              style={{ fontFamily: '"Jersey 20", sans-serif' }}
+              className="tracking-wide mb-2" 
+              style={{ 
+                fontFamily: '"Jersey 20", sans-serif',
+                fontSize: 'clamp(28px, 5vw, 36px)',
+                lineHeight: '1'
+              }}
             >
               Zhanruo Li
             </h3>
@@ -159,11 +170,12 @@ export default function App() {
             <p className="leading-relaxed">
               Zhanruo Li is an undergraduate student at Johns Hopkins University studying Philosophy, Classics, and Writing Seminars, with experience in UI/UX design in a corporate setting. She writes experimental poetry and is currently conducting independent research on classical philosophy, aesthetics, and artificial intelligence. 
             </p>
-          </div> {/* <--- THIS CLOSING DIV WAS MISSING */}
+          </div>
 
+        </div>
 
         {/* --- Footer Note --- */}
-        <div className="mt-16 text-center text-sm font-medium opacity-80 uppercase tracking-widest">
+        <div className="mt-20 text-center text-sm font-medium opacity-80 uppercase tracking-widest">
           <p>Prototype developed on Google AI Studio</p>
         </div>
       </section>
