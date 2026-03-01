@@ -144,14 +144,14 @@ export default function App() {
               Xuan Tang
             </h3>
             <p 
-              className="font-medium text-5xl mb-10 opacity-70 uppercase tracking-widest"
+              className="font-medium text-8xl mb-10 opacity-70 uppercase tracking-widest"
               style={{ fontFamily: '"Jersey 20", sans-serif', lineHeight: '1.8' }}
             >
-              Posters, Website & Prototype Design
+              Role: Posters Design, Website Design, Prototype Design
             </p>
             <p 
-              className="text-5xl tracking-wide opacity-90"
-              style={{ fontFamily: '"Jersey 20", sans-serif', lineHeight: '1.8', marginBottom: '25px'}}
+              className="text-8xl tracking-wide opacity-90"
+              style={{ fontFamily: '"Jersey 20", sans-serif', lineHeight: '1.8', marginBottom: '40px'}}
             >
               Xuan Tang is an undergraduate student majoring in Cognitive Science and Comparative Literature at the University of California, Berkeley. She uses a multimedia approach to explore the intersection of the humanities and digitality in our era.
             </p>
@@ -170,13 +170,13 @@ export default function App() {
               Zhanruo Li
             </h3>
             <p 
-              className="font-medium text-5xl mb-10 opacity-70 uppercase tracking-widest"
+              className="font-medium text-8xl mb-10 opacity-70 uppercase tracking-widest"
               style={{ fontFamily: '"Jersey 20", sans-serif', lineHeight: '1.8' }}
             >
-              Prototype Design, Model Fine-Tuning
+              Role: Prototype Design, Model Fine-Tuning
             </p>
             <p 
-              className="text-5xl tracking-wide opacity-90"
+              className="text-8xl tracking-wide opacity-90"
               style={{ fontFamily: '"Jersey 20", sans-serif', lineHeight: '1.8' }}
             >
               Zhanruo Li is an undergraduate student at Johns Hopkins University studying Philosophy, Classics, and Writing Seminars, with experience in UI/UX design in a corporate setting. She writes experimental poetry and is currently conducting independent research on classical philosophy, aesthetics, and artificial intelligence. 
@@ -187,7 +187,7 @@ export default function App() {
 
         {/* --- Footer Note with massive bottom space --- */}
         <div 
-          className="text-center text-3xl font-medium opacity-80 uppercase tracking-widest"
+          className="text-center text-8xl font-medium opacity-80 uppercase tracking-widest"
           style={{ 
             fontFamily: '"Jersey 20", sans-serif',
             marginTop: '50px',
