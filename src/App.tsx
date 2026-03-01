@@ -70,74 +70,73 @@ export default function App() {
       </main>
 
       {/* --- SECTION 3: VIDEO DEMO --- */}
-      {/* --- SECTION 3: VIDEO DEMO --- */}
-<section 
-  className="w-full flex flex-col items-center pb-20 px-4"
-  style={{backgroundColor: '#f5f5f4'}}
->
-  <h2 
-    className="tracking-wide text-center"
-    style={{ 
-      fontFamily: '"Jersey 20", sans-serif',
-      color: 'black',
-      fontSize: 'clamp(40px, 8vw, 50px)', 
-      lineHeight: '0.8',
-      marginTop: '80px', 
-      marginBottom: '20px'
-    }}
-  >
-    OUR PROTOTYPE
-  </h2>
-  
-  {/* VIMEO EMBED - Zoomed to crop black borders */}
-  <div className="w-full max-w-6xl shadow-2xl rounded-sm overflow-hidden border border-gray-300 bg-black">
-    <div className="relative w-full" style={{paddingBottom: '53.4%', overflow: 'hidden'}}>
-      <iframe 
-        src="https://player.vimeo.com/video/1165093361?badge=0&autopause=0&player_id=0&app_id=58479&title=0&byline=0&portrait=0" 
-        className="absolute top-0 left-0"
-        style={{
-          width: '100%',
-          height: '100%',
-          top: '50%',
-          left: '50%',
-          transform: 'translate(-50%, -50%)'
-        }}
-        frameBorder="0" 
-        allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" 
-        allowFullScreen
-        title="demo"
-      ></iframe>
-    </div>
-  </div>
-</section>
+      <section 
+        className="w-full flex flex-col items-center pb-20 px-4"
+        style={{backgroundColor: '#f5f5f4'}}
+      >
+        <h2 
+          className="tracking-wide text-center"
+          style={{ 
+            fontFamily: '"Jersey 20", sans-serif',
+            color: 'black',
+            fontSize: 'clamp(40px, 8vw, 50px)', 
+            lineHeight: '0.8',
+            marginTop: '80px', 
+            marginBottom: '20px'
+          }}
+        >
+          OUR PROTOTYPE
+        </h2>
+        
+        {/* VIMEO EMBED - Zoomed to crop black borders */}
+        <div className="w-full max-w-6xl shadow-2xl rounded-sm overflow-hidden border border-gray-300 bg-black">
+          <div className="relative w-full" style={{paddingBottom: '53.4%', overflow: 'hidden'}}>
+            <iframe 
+              src="https://player.vimeo.com/video/1165093361?badge=0&autopause=0&player_id=0&app_id=58479&title=0&byline=0&portrait=0" 
+              className="absolute top-0 left-0"
+              style={{
+                width: '100%',
+                height: '100%',
+                top: '50%',
+                left: '50%',
+                transform: 'translate(-50%, -50%)'
+              }}
+              frameBorder="0" 
+              allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" 
+              allowFullScreen
+              title="demo"
+            ></iframe>
+          </div>
+        </div>
+      </section>
 
       {/* --- SECTION 4: CREDITS --- */}
-<section className="w-full flex flex-col items-center py-16 px-4 bg-black text-black">
-  <h2 
-    className="tracking-wide text-center mb-8"
-    style={{ 
-      fontFamily: '"Jersey 20", sans-serif',
-      fontSize: 'clamp(30px, 6vw, 40px)', 
-      color: 'black'
-    }}
-  >
-    THE TEAM
-  </h2>
-  <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl w-full text-center">
-    <div>
-      <h3 className="font-bold text-lg mb-2 text-black">Prototype Design</h3>
-      <p className="text-black">Xuan Tang, Zhanruo Li</p>
-    </div>
-    <div>
-      <h3 className="font-bold text-lg mb-2 text-black">Website Design</h3>
-      <p className="text-black">Xuan Tang</p>
-    </div>
-    <div>
-      <h3 className="font-bold text-lg mb-2 text-black">Posters Design</h3>
-      <p className="text-black">Xuan Tang</p>
-    </div>
-  </div>
-</section>
+      <section className="w-full flex flex-col items-center py-16 px-4 bg-white text-black">
+        <h2 
+          className="tracking-wide text-center mb-8"
+          style={{ 
+            fontFamily: '"Jersey 20", sans-serif',
+            fontSize: 'clamp(30px, 6vw, 40px)', 
+            color: 'black'
+          }}
+        >
+          THE TEAM
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl w-full text-center">
+          <div>
+            <h3 className="font-bold text-lg mb-2 text-black">Prototype Design</h3>
+            <p className="text-black">Xuan Tang, Zhanruo Li</p>
+          </div>
+          <div>
+            <h3 className="font-bold text-lg mb-2 text-black">Website Design</h3>
+            <p className="text-black">Xuan Tang</p>
+          </div>
+          <div>
+            <h3 className="font-bold text-lg mb-2 text-black">Posters Design</h3>
+            <p className="text-black">Xuan Tang</p>
+          </div>
+        </div>
+      </section>
 
     </div>
   );
