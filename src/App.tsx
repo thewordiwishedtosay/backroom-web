@@ -192,7 +192,8 @@ export default function App() {
               style={{ 
                 fontFamily: '"Jersey 20", sans-serif', 
                 fontSize: '20px', 
-                lineHeight: '1.4' 
+                lineHeight: '1.4',
+                marginBottom: '40px'
               }}
             >
               Zhanruo Li is an undergraduate student at Johns Hopkins University studying Philosophy, Classics, and Writing Seminars, with experience in UI/UX design in a corporate setting. She writes experimental poetry and is currently conducting independent research on classical philosophy, aesthetics, and artificial intelligence. 
