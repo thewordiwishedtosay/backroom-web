@@ -173,7 +173,7 @@ export default function App() {
               className="font-medium text-4xl mb-10 opacity-70 uppercase tracking-widest"
               style={{ fontFamily: '"Jersey 20", sans-serif', lineHeight: '1.4' }}
             >
-              Role: Prototype Design, Model Fine-Tuning
+              Prototype Design, Model Fine-Tuning
             </p>
             <p 
               className="text-3xl tracking-wide opacity-90"
