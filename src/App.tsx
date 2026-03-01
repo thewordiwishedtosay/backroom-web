@@ -143,16 +143,6 @@ export default function App() {
               Xuan Tang
             </h3>
             <p 
-              className="font-medium mb-14 opacity-70 uppercase tracking-widest"
-              style={{ 
-                fontFamily: '"Jersey 20", sans-serif', 
-                fontSize: '20px', 
-                lineHeight: '1.1' 
-              }}
-            >
-              Posters, Website & Prototype Design
-            </p>
-            <p 
               className="tracking-wide opacity-90"
               style={{ 
                 fontFamily: '"Jersey 20", sans-serif', 
@@ -177,16 +167,6 @@ export default function App() {
             >
               Zhanruo Li
             </h3>
-            <p 
-              className="font-medium mb-14 opacity-70 uppercase tracking-widest"
-              style={{ 
-                fontFamily: '"Jersey 20", sans-serif', 
-                fontSize: '20px', 
-                lineHeight: '1.1' 
-              }}
-            >
-              Prototype Design, Model Fine-Tuning
-            </p>
             <p 
               className="tracking-wide opacity-90"
               style={{ 
