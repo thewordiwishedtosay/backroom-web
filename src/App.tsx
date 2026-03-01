@@ -112,7 +112,7 @@ export default function App() {
 </section>
 
       {/* --- SECTION 4: CREDITS --- */}
-<section className="w-full flex flex-col items-center py-16 px-4 bg-white text-black">
+<section className="w-full flex flex-col items-center py-16 px-4 bg-black text-black">
   <h2 
     className="tracking-wide text-center mb-8"
     style={{ 
