@@ -53,11 +53,10 @@ export default function App() {
       {/* --- SECTION 2: PROJECT DETAILS --- */}
       <main 
         id="content-section" 
-        /* Removed pt-16 to avoid conflict, we handle it in style below */
         className="relative z-10 w-full flex flex-col items-center pb-0 px-4 md:px-8"
         style={{
           backgroundColor: '#f5f5f4', 
-          paddingTop: '80px' /* <--- This creates the large GREY space */
+          paddingTop: '80px' 
         }}
       >
         <div className="max-w-5xl w-full bg-white shadow-2xl rounded-sm overflow-hidden mb-0">
@@ -88,7 +87,7 @@ export default function App() {
           OUR PROTOTYPE
         </h2>
         
-        {/* VIMEO EMBED - Zoomed to crop black borders */}
+        {/* VIMEO EMBED */}
         <div className="w-full max-w-6xl shadow-2xl rounded-sm overflow-hidden border border-gray-300 bg-black">
           <div className="relative w-full" style={{paddingBottom: '53.4%', overflow: 'hidden'}}>
             <iframe 
@@ -110,9 +109,9 @@ export default function App() {
         </div>
       </section>
 
-{/* --- SECTION 4: CREDITS --- */}
+      {/* --- SECTION 4: CREDITS --- */}
       <section 
-        className="w-full flex flex-col items-center pt-24 pb-10 px-4 bg-white"
+        className="w-full flex flex-col items-center pt-32 px-4 bg-white"
         style={{ color: 'black' }}
       >
         <h2 
@@ -120,65 +119,65 @@ export default function App() {
           style={{ 
             fontFamily: '"Jersey 20", sans-serif',
             color: 'black',
-            fontSize: 'clamp(40px, 8vw, 50px)', 
+            fontSize: 'clamp(50px, 8vw, 70px)', 
             lineHeight: '0.8',
             marginTop: '80px', 
-            marginBottom: '60px'
+            marginBottom: '100px'
           }}
         >
           THE TEAM
         </h2>
         
-        <div className="flex flex-col md:flex-row max-w-5xl w-full">
+        {/* Increased max-width to allow the text to spread out comfortably */}
+        <div className="flex flex-col md:flex-row max-w-6xl w-full">
           
           {/* --- Xuan Tang (Left Column) --- */}
-          {/* Added more padding (pr-16) and bottom margin for breathing room */}
-          <div className="flex-1 flex flex-col md:pr-16 md:border-r-[1px] border-emerald-500 pb-16 md:pb-0 mb-16 md:mb-0">
+          <div className="flex-1 flex flex-col md:pr-24 md:border-r-[2px] border-emerald-500 pb-20 md:pb-0 mb-20 md:mb-0">
             <h3 
-              className="tracking-wide mb-4" 
+              className="tracking-wide mb-6" 
               style={{ 
                 fontFamily: '"Jersey 20", sans-serif',
-                fontSize: 'clamp(32px, 5vw, 40px)',
+                fontSize: 'clamp(40px, 6vw, 55px)',
                 lineHeight: '1'
               }}
             >
               Xuan Tang
             </h3>
             <p 
-              className="font-medium text-3xl mb-8 opacity-70 uppercase tracking-widest"
-              style={{ fontFamily: '"Jersey 20", sans-serif', lineHeight: '1.2' }}
+              className="font-medium text-4xl mb-10 opacity-70 uppercase tracking-widest"
+              style={{ fontFamily: '"Jersey 20", sans-serif', lineHeight: '1.4' }}
             >
-              Posters, Website & Prototype Design
+              Role: Posters Design, Website Design,Prototype Design
             </p>
             <p 
-              className="text-2xl tracking-wide opacity-90"
-              style={{ fontFamily: '"Jersey 20", sans-serif', lineHeight: '1.6' }}
+              className="text-3xl tracking-wide opacity-90"
+              style={{ fontFamily: '"Jersey 20", sans-serif', lineHeight: '1.8' }}
             >
               Xuan Tang is an undergraduate student majoring in Cognitive Science and Comparative Literature at the University of California, Berkeley. She uses a multimedia approach to explore the intersection of the humanities and digitality in our era.
             </p>
           </div>
 
           {/* --- Zhanruo Li (Right Column) --- */}
-          <div className="flex-1 flex flex-col md:pl-16 pt-16 md:pt-0 border-t-[1px] md:border-t-0 border-emerald-500">
+          <div className="flex-1 flex flex-col md:pl-24 pt-20 md:pt-0 border-t-[2px] md:border-t-0 border-emerald-500">
             <h3 
-              className="tracking-wide mb-4" 
+              className="tracking-wide mb-6" 
               style={{ 
                 fontFamily: '"Jersey 20", sans-serif',
-                fontSize: 'clamp(32px, 5vw, 40px)',
+                fontSize: 'clamp(40px, 6vw, 55px)',
                 lineHeight: '1'
               }}
             >
               Zhanruo Li
             </h3>
             <p 
-              className="font-medium text-3xl mb-8 opacity-70 uppercase tracking-widest"
-              style={{ fontFamily: '"Jersey 20", sans-serif', lineHeight: '1.2' }}
+              className="font-medium text-4xl mb-10 opacity-70 uppercase tracking-widest"
+              style={{ fontFamily: '"Jersey 20", sans-serif', lineHeight: '1.4' }}
             >
-              Prototype Design, Model Fine-Tuning
+              Role: Prototype Design, Model Fine-Tuning
             </p>
             <p 
-              className="text-2xl tracking-wide opacity-90"
-              style={{ fontFamily: '"Jersey 20", sans-serif', lineHeight: '1.6' }}
+              className="text-3xl tracking-wide opacity-90"
+              style={{ fontFamily: '"Jersey 20", sans-serif', lineHeight: '1.8' }}
             >
               Zhanruo Li is an undergraduate student at Johns Hopkins University studying Philosophy, Classics, and Writing Seminars, with experience in UI/UX design in a corporate setting. She writes experimental poetry and is currently conducting independent research on classical philosophy, aesthetics, and artificial intelligence. 
             </p>
@@ -186,10 +185,14 @@ export default function App() {
 
         </div>
 
-        {/* --- Footer Note --- */}
+        {/* --- Footer Note with massive bottom space --- */}
         <div 
-          className="mt-32 mb-40 text-center text-2xl font-medium opacity-80 uppercase tracking-widest"
-          style={{ fontFamily: '"Jersey 20", sans-serif' }}
+          className="text-center text-3xl font-medium opacity-80 uppercase tracking-widest"
+          style={{ 
+            fontFamily: '"Jersey 20", sans-serif',
+            marginTop: '150px',
+            marginBottom: '200px'  /* <--- This adds the massive empty space below */
+          }}
         >
           <p>Prototype developed on Google AI Studio</p>
         </div>
