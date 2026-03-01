@@ -111,6 +111,33 @@ export default function App() {
   </div>
 </section>
 
+      {/* --- SECTION 4: CREDITS --- */}
+<section className="w-full flex flex-col items-center py-16 px-4 bg-white text-stone-900">
+  <h2 
+    className="tracking-wide text-center mb-8"
+    style={{ 
+      fontFamily: '"Jersey 20", sans-serif',
+      fontSize: 'clamp(30px, 6vw, 40px)', 
+    }}
+  >
+    THE TEAM
+  </h2>
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl w-full text-center">
+    <div>
+      <h3 className="font-bold text-lg mb-2">Prototype Design</h3>
+      <p className="text-stone-700">Xuan Tang, Zhanruo Li</p>
+    </div>
+    <div>
+      <h3 className="font-bold text-lg mb-2">Website Design</h3>
+      <p className="text-stone-700">Xuan Tang</p>
+    </div>
+    <div>
+      <h3 className="font-bold text-lg mb-2">Posters Design</h3>
+      <p className="text-stone-700">Xuan Tang</p>
+    </div>
+  </div>
+</section>
+
     </div>
   );
 }
