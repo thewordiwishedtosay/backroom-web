@@ -136,7 +136,7 @@ export default function App() {
               className="tracking-wide mb-10" 
               style={{ 
                 fontFamily: '"Jersey 20", sans-serif',
-                fontSize: '40px',
+                fontSize: '30px',
                 lineHeight: '1'
               }}
             >
@@ -146,7 +146,7 @@ export default function App() {
               className="font-medium mb-14 opacity-70 uppercase tracking-widest"
               style={{ 
                 fontFamily: '"Jersey 20", sans-serif', 
-                fontSize: '30px', 
+                fontSize: '20px', 
                 lineHeight: '1.1' 
               }}
             >
@@ -156,7 +156,7 @@ export default function App() {
               className="tracking-wide opacity-90"
               style={{ 
                 fontFamily: '"Jersey 20", sans-serif', 
-                fontSize: '30px', 
+                fontSize: '20px', 
                 lineHeight: '1.4' 
               }}
             >
@@ -170,7 +170,7 @@ export default function App() {
               className="tracking-wide mb-10" 
               style={{ 
                 fontFamily: '"Jersey 20", sans-serif',
-                fontSize: '40px',
+                fontSize: '30px',
                 lineHeight: '1'
               }}
             >
@@ -180,7 +180,7 @@ export default function App() {
               className="font-medium mb-14 opacity-70 uppercase tracking-widest"
               style={{ 
                 fontFamily: '"Jersey 20", sans-serif', 
-                fontSize: '30px', 
+                fontSize: '20px', 
                 lineHeight: '1.1' 
               }}
             >
@@ -190,7 +190,7 @@ export default function App() {
               className="tracking-wide opacity-90"
               style={{ 
                 fontFamily: '"Jersey 20", sans-serif', 
-                fontSize: '30px', 
+                fontSize: '20px', 
                 lineHeight: '1.4' 
               }}
             >
@@ -205,7 +205,7 @@ export default function App() {
           className="text-center font-medium opacity-80 uppercase tracking-widest"
           style={{ 
             fontFamily: '"Jersey 20", sans-serif',
-            fontSize: '30px',
+            fontSize: '20px',
             marginTop: '50px',
             marginBottom: '50px'  /* <--- Massive empty space added here */
           }}
