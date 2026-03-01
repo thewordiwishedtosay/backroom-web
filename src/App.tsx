@@ -150,7 +150,7 @@ export default function App() {
                 lineHeight: '1.1' 
               }}
             >
-              Role: Posters, Website & Prototype Design
+              Posters, Website & Prototype Design
             </p>
             <p 
               className="tracking-wide opacity-90"
@@ -158,7 +158,7 @@ export default function App() {
                 fontFamily: '"Jersey 20", sans-serif', 
                 fontSize: '20px', 
                 lineHeight: '1.4',
-                marginBottom: 15px'
+                marginBottom: '15px'
               }}
             >
               Xuan Tang is an undergraduate student majoring in Cognitive Science and Comparative Literature at the University of California, Berkeley. She uses a multimedia approach to explore the intersection of the humanities and digitality in our era.
@@ -185,7 +185,7 @@ export default function App() {
                 lineHeight: '1.1' 
               }}
             >
-              Role: Prototype Design, Model Fine-Tuning
+              Prototype Design, Model Fine-Tuning
             </p>
             <p 
               className="tracking-wide opacity-90"
@@ -199,20 +199,6 @@ export default function App() {
             </p>
           </div>
 
-        </div>
-
-        {/* --- Footer Note with MASSIVE bottom space --- */}
-        <div 
-          className="text-center font-medium opacity-80 uppercase tracking-widest"
-          style={{ 
-            fontFamily: '"Jersey 20", sans-serif',
-            fontSize: '20px',
-            marginTop: '50px',
-            marginBottom: '50px'  /* <--- Massive empty space added here */
-          }}
-        >
-          <p>Prototype developed on Google AI Studio</p>
-        </div>
       </section>
 
     </div>
