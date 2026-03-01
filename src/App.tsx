@@ -122,7 +122,7 @@ export default function App() {
             fontSize: 'clamp(50px, 8vw, 70px)', 
             lineHeight: '0.8',
             marginTop: '80px', 
-            marginBottom: '100px'
+            marginBottom: '40px'
           }}
         >
           THE TEAM
