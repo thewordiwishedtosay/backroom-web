@@ -112,7 +112,7 @@ export default function App() {
 
 {/* --- SECTION 4: CREDITS --- */}
       <section 
-        className="w-full flex flex-col items-center py-20 px-4 bg-white"
+        className="w-full flex flex-col items-center pt-20 pb-10 px-4 bg-white"
         style={{ color: 'black' }}
       >
         <h2 
@@ -143,10 +143,16 @@ export default function App() {
             >
               Xuan Tang
             </h3>
-            <p className="font-semibold text-sm mb-4 opacity-70 uppercase tracking-wider">
-              Posters Design, Website Design, Prototype Design
+            <p 
+              className="font-semibold text-xl mb-4 opacity-70 uppercase tracking-widest"
+              style={{ fontFamily: '"Jersey 20", sans-serif' }}
+            >
+              Posters, Website & Prototype Design
             </p>
-            <p className="leading-relaxed">
+            <p 
+              className="leading-relaxed text-lg tracking-wide"
+              style={{ fontFamily: '"Jersey 20", sans-serif' }}
+            >
               Xuan Tang is an undergraduate student majoring in Cognitive Science and Comparative Literature at the University of California, Berkeley. She uses a multimedia approach to explore the intersection of the humanities and digitality in our era.
             </p>
           </div>
@@ -164,10 +170,16 @@ export default function App() {
             >
               Zhanruo Li
             </h3>
-            <p className="font-semibold text-sm mb-4 opacity-70 uppercase tracking-wider">
+            <p 
+              className="font-semibold text-xl mb-4 opacity-70 uppercase tracking-widest"
+              style={{ fontFamily: '"Jersey 20", sans-serif' }}
+            >
               Prototype Design, Model Fine-Tuning
             </p>
-            <p className="leading-relaxed">
+            <p 
+              className="leading-relaxed text-lg tracking-wide"
+              style={{ fontFamily: '"Jersey 20", sans-serif' }}
+            >
               Zhanruo Li is an undergraduate student at Johns Hopkins University studying Philosophy, Classics, and Writing Seminars, with experience in UI/UX design in a corporate setting. She writes experimental poetry and is currently conducting independent research on classical philosophy, aesthetics, and artificial intelligence. 
             </p>
           </div>
@@ -175,7 +187,7 @@ export default function App() {
         </div>
 
         {/* --- Footer Note --- */}
-        <div className="mt-20 text-center text-sm font-medium opacity-80 uppercase tracking-widest">
+        <div className="mt-20 mb-40 text-center text-sm font-medium opacity-80 uppercase tracking-widest">
           <p>Prototype developed on Google AI Studio</p>
         </div>
       </section>
